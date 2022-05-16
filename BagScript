@@ -1,0 +1,28 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+local Item = "Gold"
+local Amount = game:GetService("Players").LocalPlayer.PlayerGui.MainGui.RightPanel.Inventory.List["Gold"].QuantityImage.QuantityText.Text
+local Price = 10000
+game:GetService("ReplicatedStorage").Events.SubmitTrade:FireServer(Item, Amount, Price)
+wait(1)
+local Item = "Void Shard"
+local Amount = game:GetService("Players").LocalPlayer.PlayerGui.MainGui.RightPanel.Inventory.List["Void Shard"].QuantityImage.QuantityText.Text
+local Price = 10000
+game:GetService("ReplicatedStorage").Events.SubmitTrade:FireServer(Item, Amount, Price)
+wait(1)
+local Item = "Crystal"
+local Amount = game:GetService("Players").LocalPlayer.PlayerGui.MainGui.RightPanel.Inventory.List["Crystal"].QuantityImage.QuantityText.Text
+local Price = 10000
+game:GetService("ReplicatedStorage").Events.SubmitTrade:FireServer(Item, Amount, Price)
+wait(1)
+local Item = "Small Bandage"
+local Amount = game:GetService("Players").LocalPlayer.PlayerGui.MainGui.RightPanel.Inventory.List["Small Bandage"].QuantityImage.QuantityText.Text
+local Price = 10000
+game:GetService("ReplicatedStorage").Events.SubmitTrade:FireServer(Item, Amount, Price)
+wait(1)
+local Item = "Jelly"
+local Amount = game:GetService("Players").LocalPlayer.PlayerGui.MainGui.RightPanel.Inventory.List["Jelly"].QuantityImage.QuantityText.Text
+local Price = 10000
+game:GetService("ReplicatedStorage").Events.SubmitTrade:FireServer(Item, Amount, Price)
